@@ -1,5 +1,5 @@
-variable "docker_container_name" {
-  default = "container-xxx"
+variable "environment" {
+  default = "xxx"
 }
 
 variable "container_ports" {

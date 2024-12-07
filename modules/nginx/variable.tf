@@ -1,5 +1,5 @@
-variable "docker_container_name" {
-  description = "The name of the Docker container."
+variable "environment" {
+  description = "Environment name."
 }
 
 variable "container_ports" {

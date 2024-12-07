@@ -1,7 +1,7 @@
 module "nginx" {
   source = "../../../modules/nginx"
 
-  docker_container_name = var.docker_container_name
+  environment = var.environment
   container_ports = var.container_ports
 
   providers = {
